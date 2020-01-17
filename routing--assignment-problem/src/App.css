@@ -1,0 +1,19 @@
+.Navigation__List {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.Navigation__Item{
+    padding: 10px;
+}
+
+.Navigation__Item a{
+    color: darkslategrey;
+}
+
+.Navigation__Item a:hover,
+.Navigation__Item a:active,
+.Navigation__Item a.active {
+    color: #fa923f;
+}
